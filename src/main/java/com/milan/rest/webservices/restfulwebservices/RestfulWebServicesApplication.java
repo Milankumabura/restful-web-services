@@ -20,7 +20,7 @@ public class RestfulWebServicesApplication {
 				registry.addMapping("/**")
 				.allowedMethods("*")
 				.allowedOrigins("http://localhost:3000")
-				.allowedHeaders("http://localhost:3000'");
+				.allowedHeaders("http://localhost:3000");
 			}
 		};
 	}
